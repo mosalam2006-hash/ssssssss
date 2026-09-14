@@ -1,0 +1,284 @@
+/* Reset & General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header & Navigation */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.logo span {
+    color: #ffb400;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 1px solid #ffb400;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 8%;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 32px;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.btn-dark {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #383b48;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+/* Special Offers */
+.offers-section {
+    background-color: #27282b;
+    color: #fff;
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title.light h2 {
+    color: #ffb400;
+}
+
+.section-title.light p {
+    color: #aaa;
+}
+
+.offers-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.offer-card {
+    max-width: 300px;
+}
+
+.offer-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.price {
+    margin-top: 10px;
+    color: #ffb400;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+}
+
+/* Menu Section */
+.menu-section {
+    padding: 60px 8%;
+    background-color: #fff;
+}
+
+.menu-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-column {
+    flex: 1;
+}
+
+.menu-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.item-info h4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.item-info span {
+    color: #ffb400;
+}
+
+.center-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-yellow {
+    background-color: #ffb400;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Timing Banner */
+.timing-banner {
+    background-color: #ffc107;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 8%;
+    text-align: center;
+}
+
+/* Gallery Section */
+.gallery-section {
+    background-color: #27282b;
+    padding: 60px 8%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 8%;
+    background-color: #fff;
+}
+
+.contact-container {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.contact-info h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #f9f8e6;
+    border-radius: 5px;
+}
+
+.btn-yellow-block {
+    width: 100%;
+    background-color: #ffc107;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1d;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
